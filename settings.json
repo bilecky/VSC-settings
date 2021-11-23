@@ -1,0 +1,68 @@
+{
+	"files.autoSave": "afterDelay",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.linkedEditing": true,
+	"editor.cursorBlinking": "expand",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Andromeda Colorizer",
+	"editor.fontSize": 16,
+	"security.workspace.trust.enabled": false,
+	"breadcrumbs.enabled": false,
+
+
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00bfff",
+		"editorBracketHighlight.foreground4": "#7cfc00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	},
+
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl"
+	},
+	"rainbowTags.allowEverywhere": true,
+	"rainbowTags.colors": ["#f20564", "yellow", "green", "purple", "royalblue", "orange"],
+	"editor.tokenColorCustomizations": {
+		 "comments": "#ff9900" ,
+        "textMateRules": [
+            {
+                "scope": [
+                 "support.type.property-name.css", 
+                 ],
+                 "settings": {
+                 "foreground": "#90fa52",
+                 }
+            },
+			{
+                "scope": [
+                 "entity.other.attribute-name.pseudo-element.css", 
+                 ],
+                 "settings": {
+                 "foreground": "#f128e7",
+                 }
+            }
+        ]
+    }
+}
